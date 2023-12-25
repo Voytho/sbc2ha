@@ -232,7 +232,7 @@ Oto jak pobrać obraz Docker z Docker Hub:
     ```
 3. Po pobraniu obrazu możesz uruchomić kontener za pomocą następującego polecenia:
     ```bash
-    doker run -p 8080:8080 sbc2ha/sbc2ha
+    docker run -p 8080:8080 sbc2ha/sbc2ha
     ```
     To polecenie uruchamia kontener Docker i mapuje port 8080 na Twoim urządzeniu na port 8080 w kontenerze Docker.
 
